@@ -1,6 +1,6 @@
 BaseUrl = "http://demo.guru99.com/v4/"
 Username = "mngr318825"
 Password = "qYsEpes"
-ChromePath = "C:\Users\Login\eclipse-workspace\Portofolium_Project_001\Drivers\chromedriver.exe"
+ChromePath = "C:\\Users\\Login\\eclipse-workspace\\Portofolium_Project_001\\Drivers\\chromedriver.exe"
 FirefoxPath = "C:\Users\Login\eclipse-workspace\Portofolium_Project_001\Drivers\geckodriver.exe"
-EdgePath = "C:\Users\Login\eclipse-workspace\Portofolium_Project_001\Drivers\msedgedriver.exe" 
+EdgePath = "C://Users//Login//eclipse-workspace//Portofolium_Project_001//Drivers//msedgedriver.exe" 
