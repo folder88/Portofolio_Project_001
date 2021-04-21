@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-21T07:36:14Z" name="Portofoliu_Project" finished-at="2021-04-21T07:36:14Z" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2021-04-21T07:36:14Z" name="Test" finished-at="2021-04-21T07:36:14Z" duration-ms="68">
+      <class name="com.pageObjects.Atest">
+        <test-method signature="method()[pri:0, instance:com.pageObjects.Atest@2f465398]" started-at="2021-04-21T07:36:14Z" name="method" finished-at="2021-04-21T07:36:14Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- com.pageObjects.Atest -->
+    </test> <!-- Test -->
+  </suite> <!-- Portofoliu_Project -->
+</testng-results>

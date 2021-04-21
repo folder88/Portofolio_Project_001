@@ -30,7 +30,7 @@ public class BaseClass {
 		
 		else if(browser.equals("edge")){
 			
-			System.setProperty("webdriver.ie.driver",data.EdgePath());
+			System.setProperty("webdriver.edge.driver",data.EdgePath());
 			driver = new EdgeDriver();
 		}
 		driver.get("http://demo.guru99.com/v4/");

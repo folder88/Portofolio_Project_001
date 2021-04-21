@@ -9,6 +9,7 @@ public class ReadConfing {
 	static Properties properties;
 	
 	//reading the file
+	
 	public ReadConfing() {
 		File src = new File("./Configuration_Data/Configuration_Data");
 		
@@ -26,6 +27,7 @@ public class ReadConfing {
 	}
 	
     //call methods
+	
 	public String getbaseUrl() {
 		String url = properties.getProperty("BaseUrl");
 		return url;
