@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.Utilities.ReadConfing;
 
-public class Atest {
+public class Atest extends BaseClass {
 
 	public static void main(String[] args) {
 		
