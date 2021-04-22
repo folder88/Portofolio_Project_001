@@ -1,13 +1,19 @@
 package com.pageObjects;
 
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import com.Utilities.ReadConfing;
 
+
+
+
+
+
 public class Atest extends BaseClass {
 
+	
 	public static void main(String[] args) {
 		
 		
@@ -27,18 +33,23 @@ public class Atest extends BaseClass {
 		
 		
 		BaseClass z = new BaseClass();
-		z.setup("edge");
+		z.setup("chrome");
 		
 		
 		
 		
 	}
 	
+	
+	
+	
+	
 	@Test
 	public void method() {
 		
-		System.out.println("TestNg method");
 		
+		System.out.println("TestNg method");
+		Logger.info("Logger works!!!!");
 	}
 
 }

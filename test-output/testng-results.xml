@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-21T08:07:23Z" name="Portofoliu_Project" finished-at="2021-04-21T08:07:30Z" duration-ms="7830">
+  <suite started-at="2021-04-21T19:25:29Z" name="Portofoliu_Project" finished-at="2021-04-21T19:25:38Z" duration-ms="8951">
     <groups>
     </groups>
-    <test started-at="2021-04-21T08:07:23Z" name="Test" finished-at="2021-04-21T08:07:30Z" duration-ms="7830">
+    <test started-at="2021-04-21T19:25:29Z" name="Test" finished-at="2021-04-21T19:25:38Z" duration-ms="8951">
       <class name="com.pageObjects.Atest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.pageObjects.Atest@1018bde2]" started-at="2021-04-21T08:07:23Z" name="setup" finished-at="2021-04-21T08:07:30Z" duration-ms="7792" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.pageObjects.Atest@7c1e2a9e]" started-at="2021-04-21T19:25:30Z" name="setup" finished-at="2021-04-21T19:25:38Z" duration-ms="8634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="method()[pri:0, instance:com.pageObjects.Atest@1018bde2]" started-at="2021-04-21T08:07:30Z" name="method" finished-at="2021-04-21T08:07:30Z" duration-ms="8" status="PASS">
+        <test-method signature="method()[pri:0, instance:com.pageObjects.Atest@7c1e2a9e]" started-at="2021-04-21T19:25:38Z" name="method" finished-at="2021-04-21T19:25:38Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->

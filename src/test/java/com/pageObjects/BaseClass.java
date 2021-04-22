@@ -1,6 +1,9 @@
 package com.pageObjects;
 
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,13 +19,19 @@ public class BaseClass {
 	
 	Data_Files data = new Data_Files();
 	public static WebDriver driver;
-	
+	public static Logger Logger;
 	
 	
 	
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String browser) {
+		
+		
+		
+		Logger = Logger.getLogger("ebanking");
+		PropertyConfigurator.configure("Log4j.properties");
+		
 		
 		
 		if(browser.equals("chrome")) {
@@ -42,6 +51,7 @@ public class BaseClass {
 			driver = new EdgeDriver();
 		}
 		driver.get("http://demo.guru99.com/v4/");
+		
 	}
 	
 
