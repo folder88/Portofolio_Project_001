@@ -11,7 +11,7 @@
 	<test name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.pageObjects.Atest" />
+			<class name="com.testCases.Test_class" />
 			<!--  <class name="com.inetbanking.testCases.TC_LoginDDT_002" />-->
 			
 

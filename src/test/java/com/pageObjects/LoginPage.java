@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	String one = "one";
+	
 	
 	WebDriver ldriver;
 	
@@ -18,8 +18,7 @@ public class LoginPage {
 		
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
-		String folder = this.one;
-		System.out.println(folder);
+		
 		
 	}
 
@@ -28,14 +27,37 @@ public class LoginPage {
 	@CacheLookup
 	WebElement txtUsername;
 	
+	@FindBy(name = "password")
+	@CacheLookup
+	WebElement txtPassword;
 	
+	@FindBy(name = "btnLogin")
+	@CacheLookup
+	WebElement txtbtnLogin;
+	
+	@FindBy(name = "/html/body/div[3]/div/ul/li[15]/a")
+	@CacheLookup
+	WebElement InkLogout;
 	
 	public void setPassword(String pwd) {
 		
 	txtUsername.sendKeys(pwd);
 		
 		
+	}
+	
+	public void setUserName(String uname) {
 		
+		txtUsername.sendKeys(uname);
+	}
+	
+	
+	public void clickSubmit() {
+		txtbtnLogin.click();
+	}
+	
+	public void clickLogout() {
+		InkLogout.click();
 	}
 	
 }

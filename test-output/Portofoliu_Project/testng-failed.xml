@@ -7,12 +7,12 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.pageObjects.Atest">
+      <class name="com.testCases.Test_class">
         <methods>
           <include name="setup"/>
-          <include name="method"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- com.pageObjects.Atest -->
+      </class> <!-- com.testCases.Test_class -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Portofoliu_Project] -->

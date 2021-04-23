@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Portofoliu_Project]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.pageObjects.Atest">
+      <class name="com.testCases.Test_class">
         <methods>
           <include name="setup"/>
-          <include name="method"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- com.pageObjects.Atest -->
+      </class> <!-- com.testCases.Test_class -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Portofoliu_Project] -->
